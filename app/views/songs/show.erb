@@ -11,6 +11,6 @@
 
 <% @song.genres.each do |genre| %>
     
-    <p><a href="/genres/<%= genre.slug %>"><%= genre.name %></a></p>
+    <p>Song Genre: <a href="/genres/<%= genre.slug %>"><%= genre.name %></a></p>
 
 <% end %>
